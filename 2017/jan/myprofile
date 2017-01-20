@@ -1,0 +1,206 @@
+<html>
+    <head>
+        <title>kanikainnovator</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        body{
+    font-family:"Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image:linear-gradient(120deg, #155799, #159957);
+}
+.about-me{
+    width:80%;
+    margin:20px 20% 20px 20%;
+}
+.section1{
+    width:30%;
+    height:580px;
+    float:left;
+    display:block;
+}
+.part1{
+    width:100%;
+    margin:2px;
+}
+.part1 img{
+    display:block;
+    margin:auto;
+    width:80%;
+    border-width:1px;
+    border-radius:4px;
+}
+.part2{
+    width:100%;
+    text-align: center;
+}
+.part2 a{
+    text-decoration:none;
+}
+.section2{
+    width:50%;
+    height:580px;
+    float:left;
+    color:#FFFFFF;
+    padding:2px;
+}
+.section2 h4{
+    color:#44C7F4;
+}
+.section2 p{
+    color:white;
+    border-bottom: 1px dashed #fff;
+}
+h2{
+    text-align:center;
+    color:#44C7F4;
+    text-decoration: underline;
+}
+.skills{
+   width:100%; 
+   display:block;
+}
+.my-skills{
+    width:49%;
+    height:410px;
+    float:left;
+    background-color:white;
+    border-width:2px;
+    border-style:groove;
+}
+.my-skills p{
+    color:#424242;
+    padding:10px;
+    font-weight:bold;
+    border-bottom: 1px dashed #44C7F4 ;
+    text-align:center;
+}
+.my-experiments{
+    width:49%;
+    height:410px;
+    float:left;
+    background-color:white;
+    border-width:2px;
+    border-style:groove;
+}
+.my-experiments p{
+    color:#424242;
+    padding:10px;
+    font-weight:bold;
+    border-bottom: 1px dashed #44C7F4 ;
+    text-align:center;
+}
+.my-experiments a{
+    text-decoration:none;
+}
+.projects{
+    width:100%; 
+    display:block;
+}
+.my-education{
+    width:49%;
+    height:400px;
+    float:left;
+    border-width:2px;
+    border-style:groove;
+}
+.my-education h4{
+    color:#F58600;
+    text-align:center;
+}
+.my-education p{
+    color:white;
+    padding:10px;
+    font-weight:bold;
+    border: 1px dashed white ;
+}
+.my-projects{
+    width:49%;
+    height:400px;
+    float:left;
+    border-width:2px;
+    border-style:groove;
+}
+.my-projects p{
+} 
+.footer{
+    width:100%;
+    height:50px;
+    float:left;
+    text-align:center;
+    font-weight:bold;
+    color:#F58635;
+    background-color:white;
+    display:block;
+}
+        </style>
+    </head>
+    <body>
+        <div class="about-me">
+            <div class="section1">
+            <div class="part1">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT5DhStuQ2WynvpL_RTd6GViflwhYq194mvxXUVTutNzhBZ3JIV" alt="my profile">
+            </div>
+            <div class="part2">
+                <h4 style="color:#F58600;font-wight:bold;font-size:20px;">FOLLOW:</h4>
+                <a href="#" target="_blank"><i class="fa fa-facebook-square" style="font-size:24px;"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-google-plus-square" style="font-size:24px"></i></a>
+            </div>
+            </div>
+            <div class="section2">
+                <h4>JOB TITLE</h4>
+                <p>Software Engineer</p>
+                <h4>NAME</h4>
+                <p>Kanika Verma</p>
+                <h4>GENDER</h4>
+                <p>Female</p>
+                <h4>EMAIL ADDRESS</h4>
+                <p>94kanikaverma@gmail.com</p>
+                <h4>GITHUB ADDRESS</h4>
+                <p>kanikainnovator.github.io</p>
+                <h4>ADDRESS</h4>
+                <p>House no. 1576/7,Katra Charat Singh,Amritsar</p>
+                <h4>CONTACT</h4>
+                <p>9888942725</p>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="my-skills">
+                <h2>MY SKILLS</h2> 
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JAVASCRIPT</p>
+                <p>BOOTSTRAP</p>
+                <p>PHP</p>
+                <p>WORDPRESS</p>
+            </div>
+            <div class="my-experiments">
+                <h2>MY EXPERIMENTS</h2> 
+                <p><a href="https://kanikainnovator.github.io/innovations/2017/jan/top10%20webhosting.html" target="_blank">LIST OF WEBHOSTING</a></p>
+                <p><a href="https://kanikainnovator.github.io/innovations/2017/jan/links.html" target="_blank">LINKS</a></p>
+                <p><a href="#" target="_blank"></a></p>
+                <p><a href="#" target="_blank"></a></p>
+                <p><a href="#" target="_blank"></a></p>
+                <p><a href="#" target="_blank"></a></p>
+                <p><a href="#" target="_blank"></a></p>
+                <p><a href="#" target="_blank"></a></p>
+            </div>
+        </div>
+        <div class="projects">
+            <div class="my-education">
+                <h2>MY EDUCATION</h2>
+                <h4>MASTER OF COMPUTER APPLICATION (2015-2017)</h4>
+                <p>I.K.GUJRAL PUNJAB TECHNICAL UNIVERSITY</p>
+                <p>AMRITSAR COLLEGE OF ENGINEERING AND TECHNOLOGY</p>
+                <h4>BACHELOR OF COMPUTER APPLICATION (2012-2015)</h4>
+                <p>GURU NANAK DEV UNIVERSITY</p>
+                <p>BBK DAV COLLEGE FOR WOMEN</p>
+            </div>
+            <div class="my-projects">
+                <h2>MY PROJECTS</h2>       
+            </div>
+        </div>
+        <div class="footer">
+            <p>Copyright 2017 OXO Solutions || All Right Reserved </p>
+        </div>
+    </body>
+</html>
