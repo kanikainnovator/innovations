@@ -1,9 +1,13 @@
 <html>
   <head>
     <title>Interns Profiles</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../../dist/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -12,14 +16,31 @@
       body{
         font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
       	}
+        footer:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
     </style>
   </head>
 <body>
-  <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Interns Profile</a>
+  <nav class="light-blue lighten-1" role="navigation" style="height: 85;">
+    <div class="nav-wrapper" style="padding: 6px;">
+      <a href="http://darlic.com/" class="brand-logo">
+        <img src="http://darlic.com/wp-content/uploads/2014/04/logo@2x.png" width="188" height="75" alt="darlic logo" style="max-height: 75px; max-width:188px;margin-left:30px;">
+      </a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down" style="margin-right: 8px;">
+        <li><a href="http://darlic.com/">HOME</a></li>
+        <li><a href="http://darlic.com/about-us/">ABOUT</a></li>
+        <li><a href="http://darlic.com/features/">FEATURES</a></li>
+        <li><a href="http://darlic.com/how-it-works/">HOW IT WORKS</a></li>
+        <li><a href="http://darlic.com/contact/">CONTACT</a></li>
+        <li><a class="waves-effect waves-light btn" href="http://darlic.com/wp-login.php" style="background-color: #1585BD;">LOGIN</a></li>
+        <li><a class="waves-effect waves-light btn" href="http://darlic.com/signup/" style="background-color:#FA811C;">SIGN UP</a></li>
+      </ul>
     </div>
   </nav>
-  
+
   <div class="container">
     <div class="section">
       <div class="row">
@@ -160,17 +181,60 @@
     </div>
   </div>
 
-  <div class="footer-copyright" style="background-color:#29B6F6;font-weight: bold;color:white;">
+  <footer class="page-footer" style="background-color:#808080;color:white;">
+    <div class="container">
+      <div class="row"   style="margin-left:10px;" >
+        <div class="col l4 s12">
+          <h6 class="white-text" style="padding: 4px;">SOLUTIONS</h6>
+          <ul>
+            <li style="padding:6px; border-bottom-width: 1px; border-bottom-style:dotted;"><a class="white-text" href="http://darlic.com/solutions/">Solutions</a></li>
+            <li style="padding:6px; border-bottom-width: 1px; border-bottom-style:dotted;"><a class="white-text" href="http://darlic.com/solutions/for-individuals/">Solutions for Individuals</a></li>
+            <li style="padding:6px; border-bottom-width: 1px; border-bottom-style:dotted;"><a class="white-text" href="http://darlic.com/solutions/for-students/">Solutions for Students</a></li>
+            <li style="padding:6px; border-bottom-width: 1px; border-bottom-style:dotted;"><a class="white-text" href="http://darlic.com/solutions/for-developers/">Solutions for Developers</a></li>
+            <li style="padding:6px; border-bottom-width: 1px; border-bottom-style:dotted;"><a class="white-text" href="http://darlic.com/solutions/for-companies/">Solutions for Companies</a></li>
+          </ul>
+        </div>
+        <div class="col l4 s12">
+          <h6 class="white-text" style="padding: 4px;"">LINKS</h6>
+          <ul>
+            <li style="padding:6px; border-bottom-width: 1px; border-bottom-style:dotted;"><a class="white-text" href="http://darlic.com/resources/">Resources</a></li>
+            <li style="padding:6px; border-bottom-width: 1px; border-bottom-style:dotted;"><a class="white-text" href="http://darlic.com/our-team/">Our Team</a></li>
+            <li style="padding:6px; border-bottom-width: 1px; border-bottom-style:dotted;"><a class="white-text" href="http://darlic.com/templates/">Templates</a></li>
+            <li style="padding:6px; border-bottom-width: 1px; border-bottom-style:dotted;"><a class="white-text" href="http://darlic.com/testimonial/">Testimonials</a></li>
+            <li style="padding:6px; border-bottom-width: 1px; border-bottom-style:dotted;"><a class="white-text" href="http://darlic.com/newsletters/">Newsletters</a></li>
+            <li style="padding:6px; border-bottom-width: 1px; border-bottom-style:dotted;"><a class="white-text" href="http://darlic.com/privacy-policy/">Privacy Policy</a></li>
+            <li style="padding:6px; border-bottom-width: 1px; border-bottom-style:dotted;"><a class="white-text" href="http://darlic.com/terms-and-conditions/">Terms and Conditions</a></li>
+          </ul>
+        </div>
+        <div class="col l4 s12">
+          <h6 class="white-text" style="padding: 4px;"">ACCOUNT</h6>
+          <ul>
+            <li style="padding:6px; border-bottom-width: 1px; border-bottom-style:dotted;"><a class="white-text" href="http://darlic.com/signup/">Sign Up</a></li>
+            <li style="padding:6px; border-bottom-width: 1px; border-bottom-style:dotted;"><a class="white-text" href="http://darlic.com/login/">Log In</a></li>
+            <li style="padding:6px; border-bottom-width: 1px; border-bottom-style:dotted;"><a class="white-text" href="http://darlic.com/sponsors/">Sponsors</a></li>
+            <li style="padding:6px; border-bottom-width: 1px; border-bottom-style:dotted;"><a class="white-text" href="http://darlic.com/sponsorship/">Sponsorship</a></li>
+            <li style="padding:6px; border-bottom-width: 1px; border-bottom-style:dotted;"><a class="white-text" href="http://darlic.com/affiliate/">Affiliate</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="footer-copyright" style="background-color:#29B6F6;color:white;">
       <div class="container">
       <br>
       <p>©2017 OXO IT SOLUTIONS PVT LTD. All rights reserved. DARLIC™ is a registered trademark of OXO IT SOLUTIONS PVT LTD.</p>
       <br>
       </div>
-  </div>
-
+  </div> 
+  
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="../../bin/materialize.js"></script>
-  <script src="js/init.js"></script>
+  <script src="js/init.js"></script>  
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>  
 
+  <div class="hiddendiv common"></div>
+  <div class="drag-target" data-sidenav="nav-mobile" style="touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); left: 0px;"></div>
 </body>
 </html>
